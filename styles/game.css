@@ -1,0 +1,102 @@
+/* Work Sans font from Google */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700&display=swap');
+
+/* Shared Styles */
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header styles start */
+header {
+    background-color: #FFF;
+    padding: 30px 200px;
+}
+
+/* header icon part start */
+.header-icon {
+    display: flex;
+}
+
+.special-font {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon-img {
+    width: 50px;
+    height: 25px;
+    padding-top: 17px;
+    padding-right: 4px;
+}
+
+/* header icon part end */
+
+/* header nav part start */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    justify-content: space-evenly;
+    margin-right: 40px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #3C354F;
+}
+
+/* header nav part end */
+
+/* !-- team section start --> */
+.teams-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+    border: 2px solid red;
+}
+
+.teams-content {
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+
+.teams-img {
+    width: 650px;
+    height: 500px;
+}
+
+/* responsive media queries */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+    header {
+        padding-top: 20px;
+        justify-content: center;
+        padding-left: auto;
+    }
+
+    nav,
+    nav>ul, .teams-container{
+        display: grid;
+        margin: auto;
+        padding: auto;
+    }
+    .teams-content {
+        padding: 0;
+    }
+    .teams-img {
+        width: 250px;
+        height: 220px;
+        justify-content: center;
+        padding-right: 5%;
+    }
+}
