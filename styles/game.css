@@ -6,10 +6,28 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.text-for-all {
+    color: #534C64;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn-primary {
+    padding: 2px 2%;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    border: 0;
+}
+
 /* header styles start */
 header {
     background-color: #FFF;
-    padding: 30px 200px;
+    padding: 30px 180px;
+    text-align: center;
 }
 
 /* header icon part start */
@@ -61,42 +79,139 @@ nav li a {
 .teams-container {
     display: flex;
     justify-content: space-between;
-    padding: 0 200px;
-    border: 2px solid red;
+    padding: 0px 180px;
 }
 
 .teams-content {
-    padding-top: 130px;
+    padding-top: 125px;
     padding-bottom: 100px;
+    border: 2px solid red;
+    align-items: center;
+    text-align: center;
+
 }
 
 .teams-img {
     width: 650px;
     height: 500px;
+    border: 2px solid red;
+   
 }
+/* <!-- team section end --> */
 
+/* <!-- team section two start --> */
+.teams-container-two{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px; 
+    padding: 10px 180px;
+    border: 2px solid red;
+}
+.content-two-banner-img{
+    width: 650px;
+    height: 500px;
+    border: 2px solid red;
+}
+.teams-content-two{
+    padding-top: 125px;
+    padding-bottom: 100px;
+    border: 2px solid red;
+    align-items: center;
+    text-align: center;
+}
+/* <!-- team section two end--> */
+/* <!-- team section three start --> */
+.teams-container-three{
+    justify-content: space-between;
+    padding: 0 200px; 
+    padding: 10px 18px;
+    border: 2px solid red;
+}
+.teams-content-three{
+    padding: 20px;
+    border: 2px solid red;
+    align-items: center;
+    text-align: center;
+}
+.poster-img{
+    display: flex;
+    border: 2px solid red;
+}
+.poster{
+    width: 250px;
+    height: 300px;
+   padding: 10px 20px;
+    justify-content: center;
+}
+/* <!-- team section three end--> */
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 576px) {
     header {
-        padding-top: 20px;
-        justify-content: center;
-        padding-left: auto;
+        padding: 10px 90px;
+        /* justify-content: center; */
+        /* padding-left: auto; */
+    }
+
+    .text-for-all {
+        color: #534C64;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
     }
 
     nav,
-    nav>ul, .teams-container{
+    nav>ul,
+    .teams-container, .teams-container-two, .poster-img{
         display: grid;
-        margin: auto;
-        padding: auto;
+        /* margin: auto;
+        padding: auto; */
     }
+
+    .teams-container {
+        padding: 0px 60px;
+    }
+
     .teams-content {
-        padding: 0;
+        padding: 5px 70px;
+        
+       
     }
+
     .teams-img {
         width: 250px;
         height: 220px;
         justify-content: center;
-        padding-right: 5%;
+
     }
+    /* container two start */
+    .teams-container-two{
+        padding: 0px 60px;
+    }
+    .content-two-banner-img{
+        width: 250px;
+        height: 220px;
+        justify-content: center;
+    } 
+    .teams-content-two{
+        padding: 5px 70px;
+    }
+    /* container two end */
+    /* container three start */
+    .teams-content-three{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: 2px solid red;
+        align-items: center;
+        text-align: center;
+    }
+    .poster{
+        width: 125px;
+        height: 125px;
+        padding: 5px 15px;
+        align-items: center;
+    }
+
+   
 }
