@@ -241,9 +241,19 @@ nav li a {
 
 /* <!-- team section six end --> */
 /* <!-- team section seven start --> */
-    
+.gaming-part{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 30px 60px;
+    border: 2px solid red;
+}
+.img-part{
+    gap: 10px;
+    align-items: center;
+}
 
 /* <!-- team section seven end --> */
+
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 576px) {
@@ -420,7 +430,12 @@ nav li a {
     }
     /* container six end */
     /* container seven start */
-
+    .gaming-part{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 30px 60px;
+        border: 2px solid red;
+    }
     /* container seven end */
 }
        
