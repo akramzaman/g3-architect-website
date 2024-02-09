@@ -84,7 +84,7 @@ nav li a {
 .teams-content {
     padding-top: 125px;
     padding-bottom: 100px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     align-items: center;
     text-align: center;
 
@@ -93,7 +93,7 @@ nav li a {
 .teams-img {
     width: 650px;
     height: 500px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
 }
 
@@ -105,19 +105,19 @@ nav li a {
     justify-content: space-between;
     padding: 0 200px;
     padding: 10px 180px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .content-two-banner-img {
     width: 650px;
     height: 500px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .teams-content-two {
     padding-top: 125px;
     padding-bottom: 100px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     align-items: center;
     text-align: center;
 }
@@ -128,19 +128,19 @@ nav li a {
     justify-content: space-between;
     padding: 0 200px;
     padding: 10px 18px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .teams-content-three {
     padding: 20px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     align-items: center;
     text-align: center;
 }
 
 .poster-img {
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .poster {
@@ -156,13 +156,13 @@ nav li a {
     justify-content: space-between;
     padding: 0 200px;
     padding: 10px 18px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
 }
 
 .teams-content-four {
     padding: 220px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     align-items: center;
     text-align: center;
 }
@@ -187,13 +187,13 @@ nav li a {
     justify-content: space-between;
     padding: 0 200px;
     padding: 10px 18px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
 }
 
 .teams-content-five {
     padding: 220px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     align-items: center;
     text-align: center;
 }
@@ -216,13 +216,13 @@ nav li a {
 /* <!-- team section six start --> */
 .teams-container-six {
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
 }
 
 .teams-content-six {
     padding: 300px 20px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
 }
 
@@ -246,7 +246,7 @@ nav li a {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     padding: 30px 60px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .img-part {
@@ -355,7 +355,7 @@ nav li a {
     .teams-content-three {
         padding-top: 5px;
         padding-bottom: 5px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         align-items: center;
         text-align: center;
     }
@@ -380,7 +380,7 @@ nav li a {
     .teams-content-four {
         padding-top: 5px;
         padding-bottom: 5px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         align-items: center;
         padding-left: 120px;
     }
@@ -414,7 +414,7 @@ nav li a {
     .teams-content-five {
         padding-top: 5px;
         padding-bottom: 5px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         align-items: center;
         padding-left: 120px;
     }
@@ -441,7 +441,7 @@ nav li a {
     .teams-content-six {
         padding-top: 5px;
         padding-bottom: 5px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
 
     .six-content-img {
@@ -470,7 +470,7 @@ nav li a {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding: 30px 60px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
 
     /* container seven end */
