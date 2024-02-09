@@ -233,7 +233,8 @@ nav li a {
     font-style: normal;
     font-weight: 600;
 }
-.career-btn{
+
+.career-btn {
     border-radius: 48px;
     background: #FFF;
     border: 0;
@@ -241,18 +242,50 @@ nav li a {
 
 /* <!-- team section six end --> */
 /* <!-- team section seven start --> */
-.gaming-part{
+.gaming-part {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     padding: 30px 60px;
     border: 2px solid red;
 }
-.img-part{
+
+.img-part {
     gap: 10px;
     align-items: center;
 }
 
 /* <!-- team section seven end --> */
+/* footer section start */
+.footer-class {
+    background: #0B0223;
+}
+
+.footer-icon {
+    display: flex;
+    padding: 10px 650px;
+}
+
+.gamer-footer {
+   color: #FFF;
+}
+
+.nav-icon {
+    padding: 10px 200px;
+    justify-content: space-evenly;
+    color: #FFF;
+}
+
+.footer-end {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 20px;
+}
+
+/* footer section end*/
 
 /* responsive media queries */
 /* mobile devices */
@@ -416,6 +449,7 @@ nav li a {
         height: 400px;
         padding: 0px 40px;
     }
+
     .text-for-six-content {
         color: #FFF;
         font-family: "Work Sans";
@@ -423,19 +457,28 @@ nav li a {
         font-style: normal;
         font-weight: 600;
     }
-    .career-btn{
+
+    .career-btn {
         border-radius: 28px;
         background: #FFF;
         border: 0;
     }
+
     /* container six end */
     /* container seven start */
-    .gaming-part{
+    .gaming-part {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding: 30px 60px;
         border: 2px solid red;
     }
+
     /* container seven end */
+    /* footer section start */
+    .footer-icon {
+        display: flex;
+        padding: 10px 120px;
+    }
+
+    /* footer section end*/
 }
-       
